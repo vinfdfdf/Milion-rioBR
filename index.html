@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MilionárioBR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #2c2c54, #1a1a2e, #16213e);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #DAA520;
+            margin-bottom: 80px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            letter-spacing: 1px;
+        }
+
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .btn {
+            background: linear-gradient(45deg, #DAA520, #FFD700, #B8860B);
+            border: none;
+            padding: 18px 40px;
+            border-radius: 50px;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(218, 165, 32, 0.3);
+            text-transform: capitalize;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(218, 165, 32, 0.4);
+            background: linear-gradient(45deg, #FFD700, #DAA520, #B8860B);
+        }
+
+        .btn:active {
+            transform: translateY(-1px);
+        }
+
+        .footer-text {
+            color: #888;
+            font-size: 0.8rem;
+            margin-top: 60px;
+            opacity: 0.6;
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                font-size: 2rem;
+                margin-bottom: 60px;
+            }
+            
+            .btn {
+                font-size: 1.1rem;
+                padding: 16px 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">MilionárioBR</h1>
+        
+        <div class="buttons-container">
+            <a href="https://vinfdfdf.github.io/O-Segredo-do-Emagrecimento/" class="btn">
+                Emagrecimento
+            </a>
+            <button class="btn" onclick="alert('Em breve!')">
+                Em Breve
+            </button>
+            <button class="btn" onclick="alert('Em breve!')">
+                Em Breve
+            </button>
+        </div>
+        
+        <p class="footer-text">© 2025 MilionárioBR</p>
+    </div>
+</body>
+</html>
